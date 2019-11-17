@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<HTML lang="en">
+    <Head>
+        <Meta chartset="UTF-8">
+        <Meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <Title>Temperature</Title>
+        <Meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
+        <Meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+        <Meta name="viewport" content="width=device-width">
+        <!-- Boostrap and Bootswatch Spacelab Customization -->
+        <Link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
+            integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" 
+            crossorigin="anonymous">
+    </Head>
+
+    <Body>
+        <Div class="container-fluid">
+            <H1 class="title"><h1 style="background-color:hsla(9, 100%, 64%, 0.5);">Latitude compared to Max Temperature</H1>
+            <Nav class="navbar-inverse">
+                <Div class="container-fluid">
+                    <Div class="navbar-header">
+                        <A class="navbar-brand" href="LandingPage.html"><span class="latitude">Latitude</A>
+                        <Button class="navbar-toggler" type="button" 
+                            data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls=" navbarNavDropdown" 
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <Span class="navbar-toggler-icon"></Span>
+                        </Button>
+                    </Div>
+                    <Ul class="nav navbar-nav navbar-right">
+                        <Li>
+                            <Div class="dropdown">
+                                <Button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Plot
+                                    <Span class="caret"></Span>
+                                </Button> 
+                                <Ul class="dropdown-menu">
+                                    <Li><A href="temp.html">Latitude compared to Max Temperature</A></Li>
+                                    <Li><A href="humidity.html">Latitude compared to Humidity</A></Li>
+                                    <Li><A href="cloud.html">Latitude compared to Cloudiness</A></Li>
+                                    <Li><A href="wind.html">Latitude compared to Wind Speed</A></Li>
+                                </Ul>
+                            </Div>
+                        </Li>
+                        <Li><A class="nav-link" href="compare.html"><Span class="c-d">Comparison</A></Li>
+                        <Li><A class="nav-link" href="Data.html"><Span class="c-d">Data</A></Li>
+                    </Ul>
+                </Div>
+            </Nav>
+        </Div>
+
+        <Div class="content">
+            <Div class="container-fluid">
+                <Div class="row">
+                    <Div class="col-sm-12 col-md-8">
+                        <Div class="box">
+                            <Div class="header">
+                            </Div>
+                            <Div class="content">
+                                <Img src="Resources/assets/images/Fig1.png" alt="Latitude vs. Temperature" class="img-responsive">
+                                    <P class="category">This displays the distance to the equatoer from the city latitude based on temperature on January 5th, 2017.
+
+
+                                    The visualation shows that cities closer to the equater experinence warmer temperatures.</P>
+                        </Div>
+                    </Div>
+                </Div>
+
+                <Div class="col-sm-12 col-md-4">
+                    <Div class="box">
+                        <Div class="header">
+                            <H1 class="title">Visualizations</H1>
+                        </Div>
+                        <Div clas="content">
+                            <A href="temp.html"></A>
+                            <Img class="img-fluid" src="Resources/assets/images/Fig1.png" alt="Latitude compared to Max Temperature" height="320" width="320">
+                            <A href="humidity.html"></A>
+                            <Img class="img-fluid" src="Resources/assets/images/Fig2.png" alt="Latitude compared to Humidity" height="320" width="320">
+                            <A href="cloud.html"></A>
+                            <Img class="img-fluid" src="Resources/assets/images/Fig3.png" alt="Latitude compared to Cloudiness" height="320" width="320">
+                            <A href="wind.html"></A>
+                            <Img class="img-fluid" src="Resources/assets/images/Fig4.png" alt="Latitude compared to Wind Speed" height="320" width="320">
+                        </Div>
+                    </Div>
+                </Div>
+            </Div>
+        </Div>
+        </Div>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    </Body>
+</HTML>
